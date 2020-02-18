@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+	<title>Juguito</title>
+	<script type="text/javascript">
+		function stock(Jugo) {
+			alert("El producto: "+Jugo+"\nSe encuentra actualmente agotado\nIntentelo mas tarde");
+		}
+	</script>
+</head>
+<body background="multimedia/fondo.png">
+	<header>
+		<div class="Btitulo">
+			<a href="index.html"><img class="logo" src="multimedia/logo.png"></a>
+		</div>
+	</header>
+	<nav>
+		<ul class="botones">
+			<li><a href="index.html">inicio</a></li>
+			<li><a href="nosotros.html">Nosotros</a></li>
+			<li class="activo"><a href="productos.html">Productos</a></li>
+			<li><a href="casos_exito.html">Casos de Exito</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
+	<section class="principal">
+		<article>
+			<div style="padding: 20px;"></div>
+			<div>
+				<div class="sobreI" align="center">
+					<p style="font-size: 35px; margin: 0;">
+						Productos:
+					</p>
+					<p style="font-size: 25px; margin: 5px;">
+						<table>
+							<tr>
+								<td>
+									<table class="tablaInt">
+										<th class="titTInt">Juguito de uwu</th>
+											<tr align="center">
+												<td>Jugo con sabor dulce de color palido.<br>Ayuda a mejorar el animo.</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<img src="multimedia/uwu.jpg" class="imgP">
+												</td>
+											</tr>
+											<tr align="center">
+												<td >
+													<button class="compra" onclick="stock('Juguito de uwu')">COMPRAR</button>
+												</td>
+											</tr>
+									</table>
+								</td>
+								<td>
+									<table class="tablaInt">
+										<th class="titTInt">Juguito de owo</th>
+											<tr align="center">
+												<td>Jugo con sabor acido de color rojo intenso.<br>Mejora la atencion y te llena de energia.</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<img src="multimedia/owo.jpg" class="imgP">
+												</td>
+											</tr>
+											<tr align="center">
+												<td >
+													<button class="compra"  onclick="stock('Juguito de owo')">COMPRAR</button>
+												</td>
+											</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table class="tablaInt">
+										<th class="titTInt">Juguito de ewe</th>
+											<tr align="center">
+												<td>Jugo con sabor dulce y un tono anaranjado.<br>Ayuda al desarrollo de la vista y audicion</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<img src="multimedia/ewe.jpg" class="imgP">
+												</td>
+											</tr>
+											<tr align="center">
+												<td >
+													<button class="compra" onclick="stock('Juguito de ewe')">COMPRAR</button>
+												</td>
+											</tr>
+									</table>
+								</td>
+								<td>
+									<table class="tablaInt">
+										<th class="titTInt">Juguito de awa</th>
+											<tr align="center">
+												<td>Jugo con sabor ligero y color amarillo limon.<br>Jugo que ayuda a la liberacion de toxinas por sus componentes 0.1% naturales</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<img src="multimedia/awa.jpg" class="imgP">
+												</td>
+											</tr>
+											<tr align="center">
+												<td >
+													<button class="compra" onclick="stock('Juguito de awa')">COMPRAR</button>
+												</td>
+											</tr>
+									</table>
+								</td>
+
+							</tr>
+						</table>
+					</p>
+				</div>
+			</div>
+			<div style="padding: 20px;"></div>
+		</article>
+	</section>
+	<footer>
+		<div class="pie" align="center">
+			<p>Todos los derechos reservados</p>
+		</div>
+	</footer>
+</body>
+</html>
